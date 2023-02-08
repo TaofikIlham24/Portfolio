@@ -124,6 +124,23 @@ section::before {
     content: 'engineer';
 }
 
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact::before {
+    content: 'contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
